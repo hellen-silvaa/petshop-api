@@ -12,6 +12,7 @@ public record PetResponse(
     string? TutorNome
 );
 
+
 public record PetRequest(
     [Required, MaxLength(80)] string Nome,
     [Required, MaxLength(40)] string Especie,
