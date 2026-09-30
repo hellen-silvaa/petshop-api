@@ -4,6 +4,7 @@ namespace PetShopApi.Dtos;
 
 public record ProdutoResponse(int Id, string Nome, string? Descricao, decimal Preco, int EstoqueQuantidade);
 
+
 public record ProdutoRequest(
     [Required, MaxLength(120)] string Nome,
     [MaxLength(400)] string? Descricao,
