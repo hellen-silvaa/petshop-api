@@ -150,3 +150,123 @@ Todas as rotas são versionadas sob `/api/v1`.
 ## Evidências de teste
 
 As capturas de tela demonstrando cada endpoint em funcionamento (via Swagger) estão na pasta [`docs/evidencias`](docs/evidencias).
+
+### Visão geral dos endpoints
+
+![Visão geral 1](docs/evidencias/GERAL1.png)
+
+![Visão geral 2](docs/evidencias/GERAL2.png)
+
+### Tutores
+
+**GET** `/api/v1/tutores`
+
+![GET tutores](docs/evidencias/TUTORESGET.png)
+
+**GET** `/api/v1/tutores/{id}`
+
+![GET tutor por id](docs/evidencias/TUTORESGET1.png)
+
+**POST** `/api/v1/tutores`
+
+![POST tutor](docs/evidencias/TUTORESPOST.png)
+
+**PUT** `/api/v1/tutores/{id}`
+
+![PUT tutor](docs/evidencias/TUTORESPUT.png)
+
+**DELETE** `/api/v1/tutores/{id}`
+
+![DELETE tutor](docs/evidencias/TUTORESDELETE.png)
+
+### Produtos
+
+**GET** `/api/v1/produtos`
+
+![GET produtos](docs/evidencias/PRODUTOSGET.png)
+
+**GET** `/api/v1/produtos/{id}`
+
+![GET produto por id](docs/evidencias/PRODUTOSGET1.png)
+
+**POST** `/api/v1/produtos`
+
+![POST produto](docs/evidencias/PRODUTOSPOST.png)
+
+**PUT** `/api/v1/produtos/{id}`
+
+![PUT produto](docs/evidencias/PRODUTOSPUT.png)
+
+**DELETE** `/api/v1/produtos/{id}`
+
+![DELETE produto](docs/evidencias/PRODUTOSDELETE.png)
+
+### Pets
+
+**GET** `/api/v1/pets`
+
+![GET pets](docs/evidencias/PETSGET.png)
+
+**GET** `/api/v1/pets/{id}`
+
+![GET pet por id](docs/evidencias/PETSGET1.png)
+
+**POST** `/api/v1/pets`
+
+![POST pet](docs/evidencias/PETSPOST.png)
+
+**PUT** `/api/v1/pets/{id}`
+
+![PUT pet](docs/evidencias/PETSPUT.png)
+
+**DELETE** `/api/v1/pets/{id}`
+
+![DELETE pet](docs/evidencias/PETSDELETE.png)
+
+### Agendamentos
+
+**GET** `/api/v1/agendamentos`
+
+![GET agendamentos](docs/evidencias/GET.png)
+
+**GET** `/api/v1/agendamentos/{id}`
+
+![GET agendamento por id](docs/evidencias/GET1.png)
+
+**POST** `/api/v1/agendamentos`
+
+![POST agendamento](docs/evidencias/POST.png)
+
+**PUT** `/api/v1/agendamentos/{id}`
+
+![PUT agendamento](docs/evidencias/PUT.png)
+
+**PATCH** `/api/v1/agendamentos/{id}/status`
+
+![PATCH status do agendamento](docs/evidencias/PATCH.png)
+
+**DELETE** `/api/v1/agendamentos/{id}`
+
+![DELETE agendamento](docs/evidencias/DELETE.png)
+
+### Pedidos
+
+**GET** `/api/v1/pedidos`
+
+![GET pedidos](docs/evidencias/PEDIDOSGET.png)
+
+**GET** `/api/v1/pedidos/{id}`
+
+![GET pedido por id](docs/evidencias/PEDIDOSGET1.png)
+
+**POST** `/api/v1/pedidos`
+
+![POST pedido](docs/evidencias/PEDIDOSPOST.png)
+
+**PATCH** `/api/v1/pedidos/{id}/status`
+
+![PATCH status do pedido](docs/evidencias/PEDIDOSPATCH.png)
+
+**DELETE** `/api/v1/pedidos/{id}`
+
+![DELETE pedido](docs/evidencias/PEDIDOSDELETE.png)
