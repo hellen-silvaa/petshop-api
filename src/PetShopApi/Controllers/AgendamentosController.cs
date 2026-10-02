@@ -4,6 +4,7 @@ using PetShopApi.Services;
 
 namespace PetShopApi.Controllers;
 
+
 /// <summary>Gerencia agendamentos de serviços (banho, tosa, consulta etc.) para os pets.</summary>
 [ApiController]
 [Route("api/v1/agendamentos")]

@@ -12,6 +12,7 @@ API RESTful para gestão de um pet shop, desenvolvida em **C# / .NET 10** com **
 | Hellen Silva      | 559008 |
 | Lorenzo Acquesta  | 557397 |
 
+
 ## Contexto do projeto
 
 O **PetShopApi** resolve a gestão operacional de um pet shop: cadastro de tutores (clientes) e seus pets, agendamento de serviços (banho, tosa, consulta, vacina, hospedagem), catálogo de produtos e pedidos de compra com baixa automática de estoque.
